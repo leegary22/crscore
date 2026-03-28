@@ -1,0 +1,22 @@
+{
+    "name": "x-snc-cash-loan-with-credit-score",
+    "version": "1.0.0",
+    "description": "[BUILD AGENT GENERATED]:  A comprehensive ServiceNow application for managing cash loan applications with integrated credit score evaluation, approval workflows, and customer management capabilities. Includes automated decision logic, loan calculations, and secure customer data handling.",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "dependencies": {
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.4.1",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.4.1"
+    }
+}

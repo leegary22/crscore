@@ -1,0 +1,6 @@
+{
+  "scope": "x_snc_cash_loan_wi",
+  "scopeId": "8ee34e973b337a10ec0e34eaefc292a0",
+  "name": "Cash Loan with Credit Score",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
