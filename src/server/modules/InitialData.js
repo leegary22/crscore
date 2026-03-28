@@ -32,34 +32,6 @@ export function createInitialLoanProducts() {
       active: true,
       requires_collateral: false,
       income_verification_required: true
-    },
-    {
-      product_name: 'Emergency Loan - Quick',
-      product_code: 'EL001',
-      description: 'Fast emergency loan for urgent financial needs',
-      min_amount: 500,
-      max_amount: 10000,
-      min_credit_score: 550,
-      base_interest_rate: 18.9,
-      term_months: 24,
-      product_category: 'emergency',
-      active: true,
-      requires_collateral: false,
-      income_verification_required: true
-    },
-    {
-      product_name: 'Auto Loan - New Vehicle',
-      product_code: 'AL001',
-      description: 'Auto loan for new vehicle purchases',
-      min_amount: 10000,
-      max_amount: 80000,
-      min_credit_score: 650,
-      base_interest_rate: 6.5,
-      term_months: 60,
-      product_category: 'auto',
-      active: true,
-      requires_collateral: true,
-      income_verification_required: true
     }
   ];
 
